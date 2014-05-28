@@ -2,7 +2,7 @@ from django.db import models
 from django.db.models import permalink
 from django.conf import settings
 from django.contrib.contenttypes import generic
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.contrib.comments.models import Comment
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.generic import GenericRelation
